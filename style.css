@@ -1,0 +1,307 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+/* HEADER START */
+.headerCustom span {
+    display: inline-block;
+    background: #6278df;
+    color: #fff;
+    height: 44px;
+    width: 43px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+}
+.headerCustom .navbar-brand {
+    font-size: 25px;
+    font-weight: 500;
+}
+.customMenu .nav-link {
+    padding: 0 20px !important;
+    font-weight: 500;
+    color: #212529 !important;
+}
+.customMenu li ul {
+    border: none;
+    top: 45px !important;
+    border-radius: 0;
+}
+.customMenu .nav-link:hover{
+    color: #6278df !important;
+}
+.customMenu li ul li a:hover{
+    color: #6278df !important;
+    background: transparent !important;
+}
+.headerCustom .headerBtn {
+    padding: 10px 30px;
+    font-weight: 600;
+}
+.headerCustom .headerBtn:hover {
+    box-shadow: 1px 2px 35px 2px #6278dfa8;
+}
+/* HEADER END */
+
+/* BANNER START */
+.banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./img/banner-bg.jpeg) no-repeat center;
+    background-size: cover;
+    padding: 160px 0;
+}
+.banner-caption h4 {
+    font-size: 25px;
+    font-weight: 300;
+}
+.banner-caption h2 {
+    font-size: 45px;
+    font-weight: 600;
+    margin: 40px 0;
+}
+/* BANNER END */
+
+/* COUNTER START */
+.counter .h2 {
+    font-size: 55px;
+    font-weight: 500;
+}
+.counter .text-muted {
+    font-size: 21px;
+    font-weight: 500;
+}
+/* COUNTER END */
+
+/* ABOUT START */
+.aLeftText {
+    margin-top: 120px;
+}
+.about .aLeftText .h1 {
+    font-size: 42px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.about .aLeftText p {
+    font-size: 20px;
+    font-weight: 300;
+}
+/* ABOUT END */
+
+/* SERVICE START */
+.service-title h2 {
+    font-size: 45px;
+    font-weight: 400;
+}
+.service-title .text-muted {
+    font-size: 25px;
+    font-weight: 300;
+}
+.service-box {
+    height: 250px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.service-box:hover{
+    box-shadow: 2px 4px 30px rgb(199, 199, 199) !important;
+}
+.sLeftImg{
+    width: 40%;
+    overflow: hidden;
+}
+.sLeftImg .sImgExtra{
+  left: 0!important;
+}
+.sLeftImg img{
+    height: 100%;
+    width: auto;
+    max-width: inherit;
+    position: relative;
+    left: -80px;
+
+}
+.sRightText{
+    width: 60%;
+    padding: 20px;
+}
+.sRightText h2 {
+    font-size: 22px;
+}
+.sRightText .text-muted {
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 15px;
+}
+/* SERVICE END */
+
+/* FEATURE START */
+.fImgBox{
+    position: relative;
+}
+.fImgBox::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #6279dfc2;
+    transition: .5s;
+    opacity: 0;
+    visibility: hidden;
+}
+.fImgBox:hover::after{
+    opacity: 1;
+    visibility: visible;
+}
+/* FEATURE END */
+
+/* PRICING START */
+.pricing-width{
+    width: 800px;
+    margin: auto;
+}
+.pText h2{
+    font-size: 45px;
+    font-weight: 500;
+}
+.pText .text-muted{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 25px 0;
+}
+.pMenu ul li{
+    font-size: 20px;
+    padding: 15px 0px;
+    font-weight: 300;
+}
+.pMenu ul li span{
+    width: 40px;
+    display: inline-block;
+    font-size: 25px;
+    color: blue;
+}
+.pButton a {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: .5s;
+}
+.pButton a:hover {
+    color: #fff;
+    background: #000000 !important;
+}
+.pricingTable:hover .pButton a{
+    color: #fff;
+    background: #1e1cb4;  
+}
+/* PRICING END */
+
+/* TESTIMONIAL START */
+.testimonial-user {
+    width: 220px;
+    margin: auto;
+}
+.testimonial span {
+    font-size: 70px;
+    color: #ddd;
+}
+.testimonial .tExtra {
+    font-size: 20px;
+}
+.testimonial-user img{
+    width: 75px;
+}
+.tUserText{
+    display: inline-block;
+}
+.tUserText h2{
+    font-size: 20px;
+}
+/* TESTIMONIAL END */
+
+/* TEAM START */
+.teamText h2 {
+    font-size: 40px;
+}
+.teamText p {
+    font-size: 18px;
+    line-height: 28px;
+}
+.teamText .extra {
+    margin-top: 96px;
+}
+.teamItem{
+    position: relative;
+    margin-top: 120px;
+}
+.teamItem img {
+    position: absolute;
+    top: -75px;
+}
+.teamItem h3 {
+    margin-top: 60px;
+    font-size: 22px;
+}
+.teamItem h6 {
+    font-size: 22px;
+    font-weight: 400;
+}
+.teamItem p {
+    font-size: 16px;
+}
+.teamItem a {
+    color: #101010;
+    font-weight: 600;
+    transition: .5s;
+}
+.teamItem a:hover{
+    color: #fff;
+    background-color: #101010;
+}
+/* TEAM END */
+
+/* CONTACT START */
+.formDiv {
+    width: 800px;
+    margin: auto;
+}
+.formDiv .form-control {
+    padding: 15px;
+}
+.btnDiv button {
+    background: #6279dfc2;
+    color: #fff;
+    border: 2px solid #6279dfc2;
+    padding: 12px 22px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: .5s;
+}
+.btnDiv button:hover{
+    background-color: #fff;
+    color: #6279dfc2;
+}
+/* CONTACT END */
+
+/* DOWNLOAD START */
+.download{
+    width: 800px;
+    margin: auto;
+}
+.btnRight a:hover{
+    background:  #000000;
+
+}
+/* DOWNLOAD END */
+
+/* FOOTER START */
+.footer p{
+    font-size: 20px;
+}
+/* FOOTER END */

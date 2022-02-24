@@ -1,0 +1,207 @@
+@media all and (max-width: 1200px) {
+    .counter .text-muted {
+        font-size: 20px;
+    }
+    .aLeftText {
+        margin-top: 60px;
+    }
+    .sRightText h2 {
+        font-size: 18px;
+    }
+    
+}
+@media all and (max-width: 992px) {
+    .navbar-toggler {
+        border: none;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .counter .h2 {
+        font-size: 50px;
+    }
+    .aLeftText {
+        margin-top: 0px;
+    }
+    .about .aLeftText .h1 {
+        font-size: 40px;
+    }
+    .service-title h2 {
+        font-size: 40px;
+    }
+    .fImgBox {
+        margin-bottom: 20px;
+    }
+    .pricing-width {
+        width: 696px;
+    }
+    .pText .text-muted {
+        margin: 15px 0;
+    }
+    .pText h2 {
+        font-size: 36px;
+    }
+    .pMenu ul li {
+        font-size: 16px;
+        padding: 5px 0px;
+    }
+    .pricingTable {
+        padding: 30px !important;
+    }
+    .teamText h2 {
+        margin-bottom: 5px !important;
+    }
+    .teamItem img {
+        top: -95px;
+    }
+    .formDiv {
+        width: 691px;
+    }
+    .banner .row.w-50.mx-auto {
+        width: 70% !important;
+    }
+    
+
+}
+@media all and (max-width: 800px) {
+    .headerbtn {
+        text-align: center;
+        width: 100%;
+    }
+    .pricing-width {
+        width: auto;
+    }
+    .formDiv {
+        width: auto;
+    }
+    .pricingTable {
+        margin-bottom: 30px;
+    }
+    .btnLeft a {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .btnRight a {
+        display: block;
+    }
+    .download {
+        width: auto;
+    }
+    .counter .h2 {
+        font-size: 40px;
+    }
+    .teamItem img {
+        top: -85px;
+        width: 30% !important;
+    }
+    .teamText h2 {
+        font-size: 40px;
+    }
+    .banner {
+        padding: 100px 0;
+    }
+    .banner-caption h4 {
+        font-size: 20px;
+    }
+    .banner-caption h2 {
+        margin: 20px 0;
+        font-size: 40px;
+    }
+    .about .aLeftText .h1 {
+        font-size: 32px;
+    }
+    .service-title h2 {
+        font-size: 30px;
+    }
+    .service-title .text-muted {
+        font-size: 20px;
+    }
+    .teamText h2 {
+        font-size: 32px;
+    }
+    .teamText .extra {
+        margin-top: 0px;
+    }
+    .btnLeft a {
+        padding: 10px !important;
+    }
+    .btnRight a {
+        padding: 10px !important;
+    }
+    .banner input.form-control {
+        padding: 10px !important;
+        font-size: 15px;
+    }
+    .banner button {
+        padding: 10px !important;
+        font-size: 15px;
+    }
+    .banner .row.w-50.mx-auto {
+        width: 70% !important;
+    }
+    
+
+}
+@media all and (max-width: 500px) {
+    .headerCustom .navbar-brand {
+        font-size: 20px;
+    }
+    .banner-caption h2 {
+        font-size: 30px;
+    }
+    .counter .h2 {
+        font-size: 30px;
+    }
+    .about .aLeftText .h1 {
+        font-size: 22px;
+    }
+    .about .aLeftText p {
+        font-size: 16px;
+    }
+    .service-title h2 {
+        font-size: 20px;
+    }
+    .service-title .text-muted {
+        font-size: 16px;
+    }
+    .pText h2 {
+        font-size: 25px;
+    }
+    .pText .text-muted {
+        margin: 10px 0;
+        font-size: 16px;
+    }
+    .pMenu ul li {
+        font-size: 15px;
+        padding: 0px 0px;
+    }
+    .pMenu ul li span {
+        font-size: 22px;
+    }
+    .teamText h2 {
+        font-size: 22px;
+    }
+    .teamText p {
+        font-size: 16px;
+    }
+    .teamItem img {
+        top: -60px;
+        width: 30% !important;
+    }
+    .footer p {
+        font-size: 16px;
+    }
+    .banner .row.w-50.mx-auto {
+        width: 100% !important;
+    }
+    .formDiv {
+        padding: 30px !important;
+    }
+    .formDiv .form-control {
+        font-size: 16px;
+    }
+    .pButton a {
+        font-size: 16px;
+    }
+ 
+}
